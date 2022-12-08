@@ -1,0 +1,23 @@
+.container1
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.container1>div
+{
+background-color: blueviolet;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+}
+.box1
+{
+    grid-row: 1/4;
+}
+.i1{
+    height:50px;
+    width:50px;
+}

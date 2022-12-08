@@ -1,0 +1,11 @@
+.square2{
+    height: 100px;
+    width: 200px;
+    margin: 200px;
+    padding: 100px;
+    transition: transform 3s;
+    background-color: red;
+}
+.square2:hover{
+    transform: skewY(12deg);
+}

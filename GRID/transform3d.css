@@ -1,0 +1,26 @@
+.square{
+    height: 100px;
+    width: 100px;
+    margin: 150px;
+    padding: 100px;
+    transition:transform 0.8s;
+    background-color: yellow;
+    border-style: double;
+    border-color: black;
+    position: absolute;
+
+}
+.square1{
+    height: 100px;
+    width: 100px;
+    margin: 150px;
+    padding: 100px;
+    transition:transform 0.8s;
+    background-color:red;
+    border-style: double;
+    border-color:black;
+    position: absolute;
+}
+.square1:hover{
+    transform: scale3d(1,2,3) rotate3d(40,40,40,120deg);
+}

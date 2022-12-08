@@ -1,0 +1,23 @@
+.square
+{
+    height:200px;
+    margin:200px;
+    padding:100px;
+    background-color: blue;
+    transition: 0.8s;
+    width:100px;
+    position:absolute;
+}
+.square1
+{
+    height:200px;
+    margin:200px;
+    padding:100px;
+    background-color:darkgreen;
+    transition: 0.8s;
+    width:100px;
+    position:absolute;
+}
+.square1:hover{
+    transform:translate(40px,40px);
+}

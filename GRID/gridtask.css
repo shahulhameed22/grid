@@ -1,0 +1,29 @@
+
+.item1{
+    grid-area:header;
+    border:10px solid purple;
+}
+.item2{
+   grid-area: menu;
+  
+}
+.item3{
+    grid-area:main;
+
+}
+
+
+
+.grid-container{
+    display: grid;    
+    gap: 10px;
+    background-color:green;
+    padding:10px;
+}
+.grid-container>div{
+    text-align:center;
+    gap:10px;
+    background-color:aqua;
+    padding:10px;
+    font-size:30px;
+}

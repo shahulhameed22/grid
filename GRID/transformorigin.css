@@ -1,0 +1,15 @@
+.object{
+    height:100px;
+width:200px;
+margin:200px;
+padding:100px;
+transition:all 3s;
+transform-origin: right bottom;
+border-radius: 100px;
+background-color: black;
+transition-timing-function:ease-in;
+
+}
+.object:hover{
+    transform:rotate(360deg)
+}

@@ -1,0 +1,7 @@
+.i1{
+    height:500px;
+    width:1000px;
+    margin:100px;
+    padding:100px;
+    filter:blur(14x);
+}
